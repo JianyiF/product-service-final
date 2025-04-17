@@ -34,7 +34,7 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
         Product {
             id: 5,
             name: "Dell Inspiron 15.6 FHD Touchscreen Laptop, Intel Core i7-1255U, 1TB SSD, 32GB RAM, Intel Iris Xe Graphics, Win11,Black".to_string(),
-            price: 1149,
+            price: 1149.99,
             description: "With its 15.6 FHD touchscreen display, enjoy crisp and vibrant visuals in stunning detail. Equipped with an Intel Core i7-1255U processor and Intel Iris Xe Graphics card, which ensures smooth multitasking and allows you to enjoy high-quality gaming and media experiences.".to_string(),
             image: "/DellInspiron15.6.png".to_string()
         },
@@ -49,7 +49,7 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
             id: 7,
             name: "Acer Aspire 3 15.6 Laptop - Silver (AMD Ryzen 5 7520U/512GB SSD/16GB RAM/Windows 11 Home)".to_string(),
             price: 599.99,
-            description: "Boost your productivity with this Acer Aspire 3 15.6" laptop. This laptop features Zen 2" Core architecture, AMD Ryzen 5 7520U processor, and 16GB LPDDR5 RAM to deliver smooth performance. The 512GB solid state drive provides efficient storage space with quick read and write times. The integrated Bluetooth 5.2 allows for efficient wireless connectivity.".to_string(),
+            description: "Boost your productivity with this Acer Aspire 3 15.6 laptop. This laptop features Zen 2 Core architecture, AMD Ryzen 5 7520U processor, and 16GB LPDDR5 RAM to deliver smooth performance. The 512GB solid state drive provides efficient storage space with quick read and write times. The integrated Bluetooth 5.2 allows for efficient wireless connectivity.".to_string(),
             image: "/AcerAspire3.png".to_string()
         },
         Product {
